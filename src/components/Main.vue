@@ -12,6 +12,10 @@ export default {
 <template>
   <h1>Main</h1>
 
+  <main>
+
+
+  </main>
 
   
 </template>
@@ -20,5 +24,10 @@ export default {
 <style lang="scss" scoped>
 
   @use '../scss/main.scss' as *;
+
+  // main{
+  //   display: block;
+  // }
+
 
 </style>

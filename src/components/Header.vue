@@ -13,10 +13,12 @@ export default {
 
 <template>
 
-<div class="jumbotron">
-  
+<div class="wrapper">
+  <div class="jumbotron relative">
+    <img src="/img/1-hero-image.png" alt="Jumbotron">
+  </div>
   <!-- ************HEADER************* -->
-  <div class="container test2">
+  <div class="fmcontainer absolute">
     <header class="d-flex j-cont-bet al-item-cent ">
       <div class="logo">
         <img src="/img/logo_seo_w_2x.png" alt="Logo Avada SEO">
@@ -32,8 +34,9 @@ export default {
       <div class="fm-btn btn-orange">get in touch now</div>
     </header>
   </div>
-  <!-- ************/HEADER************* -->
 </div>
+  <!-- ************/HEADER************* -->
+
 
 
 </template>
@@ -43,6 +46,17 @@ export default {
 
 @use '../scss/main.scss' as *;
 
+// ************HEADER*************
+
+.wrapper{
+    height: 100%;
+  .fmcontainer{
+    top: 0;
+    left: 50%;
+    translate: -50% 0;
+  }
+
+}
 
 header{
   margin: 1rem 0;
@@ -100,5 +114,14 @@ header{
       
   }
 }
+// ************/HEADER*************
+
+// ************JUMBOTRON*************
+
+.jumbotron{
+  width: 100%;
+  z-index: -1;
+}
+// ************/JUMBOTRON*************
 
 </style>
