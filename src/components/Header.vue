@@ -19,21 +19,21 @@ export default {
       <img src="/img/logo_seo_w_2x.png" alt="Logo Avada SEO">
     </div>
     <nav>
-      <ul class="d-flex">
+      <ul class="d-flex al-item-cent">
         <li v-for="(link, index) in mainMenu" :key="index">
           <a :href="link.href" :class="{'active' : link.isActive}">{{link.text}}</a>
         </li>
       </ul>
     </nav>
 
-    <div class="fm-btn">get in touch now</div>
+    <div class="fm-btn btn-orange">get in touch now</div>
   </header>
 </div>
 
 </template>
 
 
-<style lang="scss" scoped>
+<style lang='scss' scoped>
 
 @use '../scss/main.scss' as *;
 
@@ -48,25 +48,46 @@ header{
   }
 
     ul{
+      margin-top: 1rem;
+
+      li:nth-child(5){
+        position: relative;
+      }
+      li:nth-child(6){
+        margin-left: 2.5rem;
+      }
+
+      li:nth-child(5):after {
+        content: 'apply';
+        color: $bg-orange;
+        position: absolute;
+        top: 4px;
+        left: 48px;
+        border-radius: 5px;
+        padding: 0 5px;
+        border: 2px solid;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: .6rem;
+        cursor: pointer;
+      }
 
       a{
         display: inline-block;
-        margin: 0 .6rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        margin-right: 2rem;
         text-transform: capitalize;
         text-decoration: none;
         color: $white;
-        font-size: 1rem;
+        font-size: .8rem;
         font-weight: 600;
         &:hover,
         &.active{
           color: $bg-orange;
         }
       }
-    }
-
-    
+      
   }
+}
 
 </style>

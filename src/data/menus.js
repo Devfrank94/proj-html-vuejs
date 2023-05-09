@@ -10,7 +10,12 @@ const mainMenu = [
     isActive: false
   },
   {
-    href: "https://avada.website/seo/what-we-do/",
+    href: "https://avada.website/seo/who-we-do/",
+    text: "What We Do",
+    isActive: false
+  },
+  {
+    href: "https://avada.website/seo/what-we-work/",
     text: "What We Work",
     isActive: false
   },
