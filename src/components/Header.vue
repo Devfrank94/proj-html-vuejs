@@ -13,22 +13,28 @@ export default {
 
 <template>
 
-<div class="container test">
-  <header class="d-flex j-cont-bet al-item-cent ">
-    <div class="logo">
-      <img src="/img/logo_seo_w_2x.png" alt="Logo Avada SEO">
-    </div>
-    <nav>
-      <ul class="d-flex al-item-cent">
-        <li v-for="(link, index) in mainMenu" :key="index">
-          <a :href="link.href" :class="{'active' : link.isActive}">{{link.text}}</a>
-        </li>
-      </ul>
-    </nav>
+<div class="jumbotron">
+  
+  <!-- ************HEADER************* -->
+  <div class="container test2">
+    <header class="d-flex j-cont-bet al-item-cent ">
+      <div class="logo">
+        <img src="/img/logo_seo_w_2x.png" alt="Logo Avada SEO">
+      </div>
+      <nav>
+        <ul class="d-flex al-item-cent">
+          <li v-for="(link, index) in mainMenu" :key="index">
+            <a :href="link.href" :class="{'active' : link.isActive}">{{link.text}}</a>
+          </li>
+        </ul>
+      </nav>
 
-    <div class="fm-btn btn-orange">get in touch now</div>
-  </header>
+      <div class="fm-btn btn-orange">get in touch now</div>
+    </header>
+  </div>
+  <!-- ************/HEADER************* -->
 </div>
+
 
 </template>
 
@@ -65,13 +71,18 @@ header{
         left: 48px;
         border-radius: 5px;
         padding: 0 5px;
-        border: 2px solid;
+        border: 2px solid $bg-orange;
         text-align: center;
         text-transform: uppercase;
         font-weight: 600;
         font-size: .6rem;
         cursor: pointer;
+        :active &{
+          color: white;
+          background-color: $bg-orange;
+        }
       }
+
 
       a{
         display: inline-block;
