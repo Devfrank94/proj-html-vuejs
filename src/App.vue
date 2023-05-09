@@ -15,8 +15,7 @@ export default {
 }
 </script>
 <template>
-  <h1>APP</h1>
-
+  
   <Header />
 
   <Main />
@@ -30,5 +29,7 @@ export default {
 <style lang="scss">
 
   @use './scss/main.scss' as *;
+
+
 
 </style>

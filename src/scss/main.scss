@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
 
+// Scss
 @import './partials/general';
 @import './partials/mixin';
 @import './partials/typography';
 @import './partials/vars';
 @import './partials/utilities';
+@import 'bootstrap/scss/bootstrap.scss';

@@ -11,9 +11,10 @@ Il progetto consiste nella riproduzione, il più fedele possibile di un template
 ## Suddivisione della struttura (divisa dal top al bottom)
 
 1.  Header
-  - 1.1 Logo
-  - 1.2 Navbar
-  - 1.3 Button
+  - 1.1 Jumbotron
+  - 1.2 Logo
+  - 1.3 Navbar
+  - 1.4 Button
 
 2. Main
   - 2.1 - Section 1 Meet New Agency

@@ -1,5 +1,10 @@
 const mainMenu = [
   {
+    href: "#",
+    text: "Home",
+    isActive: true
+  },
+  {
     href: "https://avada.website/seo/who-we-are/",
     text: "Who We Are",
     isActive: false
