@@ -239,6 +239,63 @@ export default {
   </section>
 <!-- ******/2.4 - Section 4 Our Plans ******-->
 
+<!-- *****2.5 - Section 5 Latest News *****-->
+
+<section class="Sect5">
+    <div class="container">
+      <div class="title-cont mt-2 d-flex flex-dir-col al-item-cent">
+        <h3 class="mt-5 mb-4">our news</h3>
+        <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Dolor, nam voluptas dolorum placeat</p>
+      </div>
+
+        <!-- ****CARDS NEWS**** -->
+      <div class="row row-cols-3 mb-5">
+        <div class="cont-card">
+          <div class="fmcard">
+            <img src="/img/related-service-2-320x202.jpg" alt="Related Service 1">
+            <div class="title-cont d-flex flex-dir-col al-item-cent">
+              <h3 class="my-2">why you need a SEO agency now</h3>
+              <p class="">November 1st, 2017</p>
+              <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa incidunt quaerat illo reiciendis aliquam temporibus voluptate beatae labore, quam amet.</p> 
+            </div>
+          </div>
+        </div>
+        <div class="cont-card">
+          <div class="fmcard">
+            <img src="/img/related-service-4-320x202.jpg" alt="Related Service 2">
+            <div class="title-cont d-flex flex-dir-col al-item-cent">
+              <h3 class="my-2">why you need a SEO agency now</h3>
+              <p class="">November 1st, 2017</p>
+              <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa incidunt quaerat illo reiciendis aliquam temporibus voluptate beatae labore, quam amet.</p> 
+            </div>
+          </div>
+        </div>
+        <div class="cont-card">
+          <div class="fmcard">
+            <img src="/img/blog-post-6-320x202.jpg" alt="Related Service 3">
+            <div class="title-cont d-flex flex-dir-col al-item-cent">
+              <h3 class="my-2">why you need a SEO agency now</h3>
+              <p class="">November 1st, 2017</p>
+              <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa incidunt quaerat illo reiciendis aliquam temporibus voluptate beatae labore, quam amet.</p> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <span class="fm-btn btn-orange">go to news</span>
+    </div>
+    <!-- ****/CARDS NEWS**** -->
+
+</section>
+<!-- *****/2.5 - Section 5 Latest News *****-->
+
+
+
+
+
+
+
+
+
 
 
 
@@ -431,6 +488,38 @@ export default {
 
     }
   }
+}
+// ******/2.4 - Section 4 Our Plans*****
+
+// ******2.5 - Section 5 Latest News*****
+
+.Sect5{
+
+  padding-bottom: 80px;
+
+  .fmcard{
+    
+    .title-cont{
+  
+    h3{
+    color: $bg-orange;  
+    font-size: 1rem;
+    font-weight: 700;
+    }
+
+    p{
+    font-size: .7rem;
+    color: $gray;
+    }
+  
+  
+    }
+  }
+
+
+
+
+
 
 
 
@@ -446,11 +535,24 @@ export default {
 
 
 
+// ******/2.5 - Section 5 Latest News*****
 
 
 
 
-// ******/2.4 - Section 4 Our Plans*****
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
