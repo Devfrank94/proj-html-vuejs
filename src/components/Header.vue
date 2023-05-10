@@ -115,7 +115,7 @@ header{
 
       a{
         display: inline-block;
-        margin-right: 2rem;
+        margin-right: 1.5rem;
         text-transform: capitalize;
         text-decoration: none;
         color: $white;
@@ -148,12 +148,12 @@ header{
 
     h2{
       text-transform: capitalize;
-      font-size: 2.8rem;
+      font-size: 2.4rem;
       font-weight: 600;
     }
 
     p{
-      font-size: 1rem;
+      font-size: .8rem;
     }
 
     }

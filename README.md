@@ -24,7 +24,7 @@ Il progetto consiste nella riproduzione, il più fedele possibile di un template
   - 2.5 - Section 5 Latest News
   - 2.6 - Section 6 What Our Clients Say
   - 2.7 - Section 7 Start Free Consultation
-  - 2.8 - Elementi fixed a destra della pagina e tasto to topa fondo pagina
+  - 2.8 - Elementi fixed a destra della pagina e tasto to top a fondo pagina
 
 3. Footer
   - 3.1 Logo
