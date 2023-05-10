@@ -18,7 +18,7 @@ export default {
 
   <section class="Sect1">
     <div class="container">
-      <div class="title-cont d-flex flex-dir-col al-item-cent">
+      <div class="title-cont mt-2 d-flex flex-dir-col al-item-cent">
         <h3 class="mt-5 mb-4">meet the new agency SEO template<br>from the avada team</h3>
         <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Dolor, nam voluptas dolorum placeat libero itaque?</p>
       </div>
@@ -56,12 +56,64 @@ export default {
     </div>
     <!-- ****/CARDS**** -->
 
+    <!-- ****IMG SEO DESK**** -->
+    <div class="container-fluid w-75">
+      <img src="/img/agency-seo-desk-front-1200x570.jpg" alt="Seo Desk">
+    </div>
   </section>
 
 
+<!-- *****2.2 - Section 2 See Our Top Notch***** -->
 
+<section class="Sect2">
+    <div class="container">
+      <div class="title-cont d-flex flex-dir-col al-item-cent">
+        <h3 class="mt-5 mb-4">see our top notch services</h3>
+        <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Dolor, nam voluptas</p>
+      </div>
 
-
+        <!-- ****CARDS BLUE**** -->
+      <div class="row row-cols-4">
+        <div class="cont-card">
+          <div class="fmcard py-5 px-5">
+            <i class="fa-brands fa-google fa-xl" style="color: #ffa737;"></i>
+            <div class="title-cont d-flex flex-dir-col al-item-cent">
+              <h4 class="mt-3 mb-2">google SEO</h4>
+              <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, nam voluptas dolorum placeat libero</p>
+            </div>
+          </div>
+        </div>
+        <div class="cont-card">
+          <div class="fmcard py-5 px-5">
+            <i class="fa-solid fa-gear fa-xl" style="color: #ffa737;"></i>
+            <div class="title-cont d-flex flex-dir-col al-item-cent">
+              <h4 class="mt-3 mb-2">brand strategy</h4>
+              <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, nam voluptas dolorum placeat libero</p>
+            </div>
+          </div>
+        </div>
+        <div class="cont-card">
+          <div class="fmcard py-5 px-5">
+            <i class="fa-solid fa-building fa-xl" style="color: #ffa737;"></i>
+            <div class="title-cont d-flex flex-dir-col al-item-cent">
+              <h4 class="mt-3 mb-2">local SEO</h4>
+              <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, nam voluptas dolorum placeat libero</p>
+            </div>
+          </div>
+        </div>
+        <div class="cont-card">
+          <div class="fmcard py-5 px-5">
+            <i class="fa-solid fa-chart-column fa-xl" style="color: #ffa737;"></i>
+            <div class="title-cont d-flex flex-dir-col al-item-cent">
+              <h4 class="mt-3 mb-2">SEO analysis</h4>
+              <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, nam voluptas dolorum placeat libero</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ****/CARDS BLUE**** -->
+  </section>
 
 
 
@@ -84,7 +136,7 @@ export default {
   @use '../scss/main.scss' as *;
 
   // 2. Main
-  // - 2.1 - Section 1 Meet New Agency
+  // *******2.1 - Section 1 Meet New Agency********
   section:nth-child(odd){
     background-color: $bg-sect;  
   }
@@ -115,5 +167,48 @@ export default {
     font-size: .7rem;
     }
   }
+
+  // *******/2.1 - Section 1 Meet New Agency********
+
+  // ******2.2 - Section 2 See Our Top Notch******
+
+.Sect2{
+  padding-bottom: 80px;
+  background-color: $bg-blue;
+  background-image: url('/img/pattern_background.png');
+  background-size: contain;
+
+  h3{
+    color: $bg-sect;
+  }
+
+  p{
+    color: $bg-rocard;
+  }
+
+  .fmcard{
+    background-color: $blue;
+
+    h4{
+      color: $bg-sect;
+    }
+
+  }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
   
 </style>
