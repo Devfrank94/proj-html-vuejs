@@ -133,7 +133,7 @@ export default {
 
         <!-- ****CARDS CASE STUDY**** -->
         <!-- TODO: hover alle card -->
-      <div class="row row-cols-3 mb-4">
+      <div class="row row-cols-3 mb-3">
         <div class="cont-card">
           <div class="fmcard">
             <img src="/img/case-study-gallery-3-1-400x300.jpg" alt="Case study 1">
@@ -174,8 +174,38 @@ export default {
 </section>
 <!-- ****** /2.3 - Section 3 Our Work ********-->
 
+<!-- ******2.4 - Section 4 Our Plans ******-->
 
-    
+<section class="Sect4">
+    <div class="container">
+      <div class="title-cont d-flex flex-dir-col al-item-cent">
+        <h3 class="mt-5 mb-4">our plans</h3>
+        <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Dolor, nam voluptaslibero voluptas</p>
+      </div>
+
+        <!-- ****CARDS PLANS PRICE**** -->
+      <div class="row row-cols-4">
+        <div class="cont-card">
+          <div class="fmcard py-5 px-5">
+            <i class="fa-brands fa-google fa-xl" style="color: #ffa737;"></i>
+            <div class="title-cont d-flex flex-dir-col al-item-cent">
+              <h4 class="mt-3 mb-2">google SEO</h4>
+              <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, nam voluptas dolorum placeat libero voluptas</p>
+              <span>read more</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ****/CARDS BLUE**** -->
+  </section>
+
+
+
+
+
+
+<!-- ******/2.4 - Section 4 Our Plans ******-->
 
 
 
@@ -286,15 +316,43 @@ export default {
 
 }
 
-
-
-
-
-
-
 // ******/2.3 - Section 3 Our Work*****
 
+// ******2.4 - Section 4 Our Plans*****
 
+.Sect4{
+
+  padding-bottom: 100px;
+  background-image: url('/img/background1.jpg');
+  background-size: contain;
+
+  h3{
+    color: $bg-sect;
+  }
+
+  p{
+    color: $bg-rocard;
+  }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ******/2.4 - Section 4 Our Plans*****
 
 
 
