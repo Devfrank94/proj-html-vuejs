@@ -154,6 +154,7 @@ header{
 
     p{
       font-size: .8rem;
+      color: $bg-sect;
     }
 
     }

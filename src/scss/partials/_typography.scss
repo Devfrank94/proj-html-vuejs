@@ -8,6 +8,14 @@ li{
   list-style: none;
 }
 
+h1, h2, h3, h4{
+  text-transform: capitalize;
+}
+
+section{
+  text-align: center;
+}
+
 // stile bottoni
 // Generico
 .fm-btn{
