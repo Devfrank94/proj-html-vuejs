@@ -118,9 +118,61 @@ export default {
     </div>
     <!-- ****/CARDS BLUE**** -->
   </section>
+<!-- *****/2.2 - Section 2 See Our Top Notch***** -->
 
 
+<!-- ****** 2.3 - Section 3 Our Work ********-->
 
+
+  <section class="Sect3">
+    <div class="container">
+      <div class="title-cont mt-2 d-flex flex-dir-col al-item-cent">
+        <h3 class="mt-5 mb-4">our work</h3>
+        <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Dolor, nam voluptas dolorum placeat</p>
+      </div>
+
+        <!-- ****CARDS CASE STUDY**** -->
+        <!-- TODO: hover alle card -->
+      <div class="row row-cols-3 mb-4">
+        <div class="cont-card">
+          <div class="fmcard">
+            <img src="/img/case-study-gallery-3-1-400x300.jpg" alt="Case study 1">
+          </div>
+        </div>
+        <div class="cont-card">
+          <div class="fmcard">
+            <img src="/img/case-study-gallery-2-400x300.jpg" alt="Case study 2">
+          </div>
+        </div>
+        <div class="cont-card">
+          <div class="fmcard">
+            <img src="/img/case-study-gallery-1-1-400x300.jpg" alt="Case study 3">
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-3 mb-5">
+        <div class="cont-card">
+          <div class="fmcard">
+            <img src="/img/case-study-gallery-4-1-400x300.jpg" alt="Case study 4">
+          </div>
+        </div>
+        <div class="cont-card">
+          <div class="fmcard">
+            <img src="/img/case-study-gallery-5-1-400x300.jpg" alt="Case study 5">
+          </div>
+        </div>
+        <div class="cont-card">
+          <div class="fmcard">
+            <img src="/img/case-study-gallery-6-1-400x300.jpg" alt="Case study 6">
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- ****/CARDS CASE STUDY**** -->
+
+</section>  
+    
 
 
 
@@ -220,7 +272,14 @@ export default {
 
 // ******2.3 - Section 3 Our Work******
 
+.Sect3{
 
+  .fmcard{
+    cursor: pointer;
+  }
+
+
+}
 
 
 
