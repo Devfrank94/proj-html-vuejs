@@ -186,12 +186,14 @@ export default {
         <!-- ****CARDS PLANS PRICE**** -->
       <div class="row row-cols-4">
         <div class="cont-card">
-          <div class="fmcard py-5 px-5">
-            <i class="fa-brands fa-google fa-xl" style="color: #ffa737;"></i>
+          <div class="fmcard py-4 px-5">
             <div class="title-cont d-flex flex-dir-col al-item-cent">
-              <h4 class="mt-3 mb-2">google SEO</h4>
-              <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, nam voluptas dolorum placeat libero voluptas</p>
-              <span>read more</span>
+              <h3 class="mt-2 mb-5">standard</h3>
+              <h2 class="price plan mb-5 relative">19</h2>
+              <p class="mb-4">5 project</p>
+              <p class="mb-4">5 GB storage</p>
+              <p class="mb-4">unlimited users</p>
+              <span class="fm-btn btn-card">start today</span>
             </div>
           </div>
         </div>
@@ -249,11 +251,14 @@ export default {
  
   }
 
-  .fmcard{
-    border-radius: 5px;
-
-    p{
-    font-size: .7rem;
+  .Sect2{
+    
+    .fmcard{
+      border-radius: 5px;
+  
+      p{
+      font-size: .7rem;
+      }
     }
   }
 
@@ -324,7 +329,7 @@ export default {
 
   padding-bottom: 100px;
   background-image: url('/img/background1.jpg');
-  background-size: contain;
+  background-size: cover;
 
   h3{
     color: $bg-sect;
@@ -332,6 +337,69 @@ export default {
 
   p{
     color: $bg-rocard;
+  }
+
+  .cont-card{
+
+    .fmcard{
+      background-color: $bg-rocard;
+  
+      h3{
+      color: $black;
+      font-size: 1.7rem;
+      font-weight: 800;
+      }
+
+      h2{
+      color: $bg-litcyan;
+      font-size: 2.5rem;
+      font-weight: 900;
+      }
+
+      p{
+      font-size: .9rem;
+      font-weight: 600;
+      color: $gray;
+      text-transform: capitalize;
+      }
+
+      .title-cont{
+
+        .price:before {
+        content: '$';
+        color: $gray;
+        position: absolute;
+        top: 8px;
+        left: -9px;
+        font-weight: 800;
+        font-size: 1.1rem;
+      }
+        .price:after {
+        content: '99';
+        color: $bg-litcyan;
+        position: absolute;
+        top: 4px;
+        right: -17px;
+        font-weight: 800;
+        font-size: 1rem;
+      }
+
+      // Non mi accetta un secondo pseudo elemento
+      /*   .plan:after {
+        content: 'monthly';
+        color: $gray;
+        text-transform: lowercase;
+        position: absolute;
+        top: 30px;
+        right: -35px;
+        font-weight: 700;
+        font-style: italic;
+        font-size: .6rem;
+      } */
+
+      }
+
+    }
   }
 
 
