@@ -14,9 +14,22 @@ export default {
 <template>
 
 <div class="wrapper">
+
+  <!-- ************JUMBOTRON********** -->
   <div class="jumbotron relative">
     <img src="/img/1-hero-image.png" alt="Jumbotron">
+    <div class="fmcontainer absolute">
+      <div class="leftblock">
+        <h2>SEM campaigns made simple with avada</h2>
+        <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae fugiat et, omnis itaque, perferendis perspiciatis minus cum sapiente</p>
+        <span class="fm-btn btn-orange me-2 ">buy avada now</span>
+        <span class="fm-btn btn-cyan">contact us</span>
+      </div>
+    </div>
   </div>
+
+  <!-- ************/JUMBOTRON********** -->
+
   <!-- ************HEADER************* -->
   <div class="fmcontainer absolute">
     <header class="d-flex j-cont-bet al-item-cent ">
@@ -50,10 +63,12 @@ export default {
 
 .wrapper{
     height: 100%;
+
+
   .fmcontainer{
     top: 0;
     left: 50%;
-    translate: -50% 0;
+    translate: (-50% 0);
   }
 
 }
@@ -121,6 +136,30 @@ header{
 .jumbotron{
   width: 100%;
   z-index: -1;
+
+  .fmcontainer{
+    top: 50%;
+    left: 50%;
+    translate: (-50% -50%);
+    .leftblock{
+    color: white;
+    min-width: 20%;
+    max-width: 50%;
+
+    h2{
+      text-transform: capitalize;
+      font-size: 2.8rem;
+      font-weight: 600;
+    }
+
+    p{
+      font-size: 1rem;
+    }
+
+    }
+  }
+
+
 }
 // ************/JUMBOTRON*************
 
