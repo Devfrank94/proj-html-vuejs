@@ -305,7 +305,7 @@ export default {
       </div>
 
         <!-- ****BRANDS**** -->
-      <div class="brands row row-cols-4 pt-5">
+      <div class="brands row row-cols-4 py-5">
         <div class="col">
               <img src="/img/clients_partner_5-200x202.png" alt="">
         </div>
@@ -323,7 +323,32 @@ export default {
   </section>
 <!-- *****/2.6 - Section 6 What Our Clients Say***** -->
 
+<!-- 2.7 - Section 7 Start Free Consultation -->
 
+<section class="Sect7">
+    <div class="container d-flex j-cont-cent">
+      <div class="title-cont al-item-cent">
+        <h3 class="mt-5 mb-3">start your free consultation</h3>
+        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Dolor, nam voluptaslibero voluptas</p>
+        <span class="fm-btn btn-orange">contact us now</span>
+      </div>
+      
+    </div>
+    <!-- ****/CARDS BLUE**** -->
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /2.7 - Section 7 Start Free Consultation -->
 
 
 
@@ -593,6 +618,19 @@ export default {
 
 // *****/2.6 - Section 6 What Our Clients Say*****
 
+// *****2.7 - Section 7 Start Free Consultation*****
+
+.Sect7{
+  width: 100%;
+  background-image: url('/img/CTA-seo-1.jpg');
+  
+  background-size: cover;
+
+  h3, p{
+    color: $bg-sect;
+  }
+
+}
 
 
 
@@ -602,7 +640,7 @@ export default {
 
 
 
-
+// *****/2.7 - Section 7 Start Free Consultation*****
 
 
 
