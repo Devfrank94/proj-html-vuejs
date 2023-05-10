@@ -167,11 +167,14 @@ export default {
           </div>
         </div>
       </div>
-
+      <span class="fm-btn btn-orange">view our work</span>
     </div>
     <!-- ****/CARDS CASE STUDY**** -->
 
-</section>  
+</section>
+<!-- ****** /2.3 - Section 3 Our Work ********-->
+
+
     
 
 
@@ -273,6 +276,8 @@ export default {
 // ******2.3 - Section 3 Our Work******
 
 .Sect3{
+
+  padding-bottom: 80px;
 
   .fmcard{
     cursor: pointer;
