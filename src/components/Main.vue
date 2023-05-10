@@ -79,7 +79,8 @@ export default {
             <i class="fa-brands fa-google fa-xl" style="color: #ffa737;"></i>
             <div class="title-cont d-flex flex-dir-col al-item-cent">
               <h4 class="mt-3 mb-2">google SEO</h4>
-              <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, nam voluptas dolorum placeat libero</p>
+              <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, nam voluptas dolorum placeat libero</p>
+              <span>read more</span>
             </div>
           </div>
         </div>
@@ -88,7 +89,8 @@ export default {
             <i class="fa-solid fa-gear fa-xl" style="color: #ffa737;"></i>
             <div class="title-cont d-flex flex-dir-col al-item-cent">
               <h4 class="mt-3 mb-2">brand strategy</h4>
-              <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, nam voluptas dolorum placeat libero</p>
+              <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, nam voluptas dolorum placeat libero</p>
+              <span>read more</span>
             </div>
           </div>
         </div>
@@ -97,7 +99,8 @@ export default {
             <i class="fa-solid fa-building fa-xl" style="color: #ffa737;"></i>
             <div class="title-cont d-flex flex-dir-col al-item-cent">
               <h4 class="mt-3 mb-2">local SEO</h4>
-              <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, nam voluptas dolorum placeat libero</p>
+              <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, nam voluptas dolorum placeat libero</p>
+              <span>read more</span>
             </div>
           </div>
         </div>
@@ -106,7 +109,8 @@ export default {
             <i class="fa-solid fa-chart-column fa-xl" style="color: #ffa737;"></i>
             <div class="title-cont d-flex flex-dir-col al-item-cent">
               <h4 class="mt-3 mb-2">SEO analysis</h4>
-              <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, nam voluptas dolorum placeat libero</p>
+              <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, nam voluptas dolorum placeat libero</p>
+              <span>read more</span>
             </div>
           </div>
         </div>
@@ -173,7 +177,7 @@ export default {
   // ******2.2 - Section 2 See Our Top Notch******
 
 .Sect2{
-  padding-bottom: 80px;
+  padding-bottom: 100px;
   background-color: $bg-blue;
   background-image: url('/img/pattern_background.png');
   background-size: contain;
@@ -193,18 +197,38 @@ export default {
       color: $bg-sect;
     }
 
+    span{
+      text-transform: capitalize;
+      position: relative;
+      color: $bg-orange;
+      cursor: pointer;
+      &:after {
+        content: '>';
+        position: absolute;
+        color: $bg-orange;
+        top: 0;
+        right: -14px;
+        font-size: 1.2rem;
+      }
+    }
+
   }
 
 
-
-
-
 }
+// ******/2.2 - Section 2 See Our Top Notch******
+
+// ******2.3 - Section 3 Our Work******
 
 
 
 
 
+
+
+
+
+// ******/2.3 - Section 3 Our Work*****
 
 
 
