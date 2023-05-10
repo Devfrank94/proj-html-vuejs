@@ -255,8 +255,8 @@ export default {
             <img src="/img/related-service-2-320x202.jpg" alt="Related Service 1">
             <div class="title-cont d-flex flex-dir-col al-item-cent">
               <h3 class="my-2">why you need a SEO agency now</h3>
-              <p class="">November 1st, 2017</p>
-              <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa incidunt quaerat illo reiciendis aliquam temporibus voluptate beatae labore, quam amet.</p> 
+              <p class="mb-2">November 1st, 2017</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa incidunt quaerat illo reiciendis aliquam temporibus voluptate beatae labore, quam amet.</p> 
             </div>
           </div>
         </div>
@@ -264,9 +264,9 @@ export default {
           <div class="fmcard">
             <img src="/img/related-service-4-320x202.jpg" alt="Related Service 2">
             <div class="title-cont d-flex flex-dir-col al-item-cent">
-              <h3 class="my-2">why you need a SEO agency now</h3>
-              <p class="">November 1st, 2017</p>
-              <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa incidunt quaerat illo reiciendis aliquam temporibus voluptate beatae labore, quam amet.</p> 
+              <h3 class="my-2">SEO tips for your startup</h3>
+              <p class="mb-2">November 1st, 2017</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa incidunt quaerat illo reiciendis aliquam temporibus voluptate beatae labore, quam amet.</p> 
             </div>
           </div>
         </div>
@@ -274,9 +274,9 @@ export default {
           <div class="fmcard">
             <img src="/img/blog-post-6-320x202.jpg" alt="Related Service 3">
             <div class="title-cont d-flex flex-dir-col al-item-cent">
-              <h3 class="my-2">why you need a SEO agency now</h3>
-              <p class="">November 1st, 2017</p>
-              <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa incidunt quaerat illo reiciendis aliquam temporibus voluptate beatae labore, quam amet.</p> 
+              <h3 class="my-2">image optimization for your site</h3>
+              <p class="mb-2">November 1st, 2017</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa incidunt quaerat illo reiciendis aliquam temporibus voluptate beatae labore, quam amet.</p> 
             </div>
           </div>
         </div>
@@ -508,7 +508,7 @@ export default {
     }
 
     p{
-    font-size: .7rem;
+    font-size: .6rem;
     color: $gray;
     }
   
