@@ -290,18 +290,37 @@ export default {
 
 <!-- *****2.6 - Section 6 What Our Clients Say***** -->
 
+<section class="Sect6">
+    <div class="container">
+      <div class="title-cont d-flex flex-dir-col al-item-cent pb-5">
+        <h3 class="mt-5 mb-4">what our clients say</h3>
+        <img src="/img/testimonials-2.jpg" alt="">
+        <p class="my-3">Ability proceeds from a fusion of skills, knowledge, understanding and imagination,<br>consolidated by experience</p>
+        <p><strong>Luis Desalvo</strong>, CREO TECH</p>
+        <div>
+          <i class="fa-solid fa-circle" style="color: #202020;"></i>
+          <i class="fa-regular fa-circle" style="color: #202020;"></i>
+        </div>
 
+      </div>
 
-
-
-
-
-
-
-
-
-
-
+        <!-- ****BRANDS**** -->
+      <div class="brands row row-cols-4 pt-5">
+        <div class="col">
+              <img src="/img/clients_partner_5-200x202.png" alt="">
+        </div>
+        <div class="col">
+              <img src="/img/clients_partner_6-200x202.png" alt="">
+        </div>
+        <div class="col">
+              <img src="/img/clients_partner_1-200x202.png" alt="">
+        </div>
+        <div class="col">
+              <img src="/img/clients_partner_2-200x202.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
 <!-- *****/2.6 - Section 6 What Our Clients Say***** -->
 
 
@@ -532,16 +551,45 @@ export default {
 
 // *****2.6 - Section 6 What Our Clients Say*****
 
+.Sect6{
+
+  .brands{
+
+    border-top: 2px solid #eaeaea9b;
+
+    img{
+      width: 100px;
+    }
+
+  }
+
+  .title-cont{
+
+    .fa-circle{
+      font-size: .4rem;
+      margin: 3px;
+      cursor: pointer;
+    }
+
+    img{
+      border-radius: 50%;
+      width: 100px; 
+    }
+
+    p:first-of-type{
+    font-size: .6rem;
+    font-weight: 600;
+    font-style: italic;
+    }
+
+    p{
+      font-size: .6rem;
+    }
+
+  }
 
 
-
-
-
-
-
-
-
-
+}
 
 // *****/2.6 - Section 6 What Our Clients Say*****
 
