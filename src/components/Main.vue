@@ -189,7 +189,7 @@ export default {
           <div class="fmcard py-4 px-5">
             <div class="title-cont d-flex flex-dir-col al-item-cent">
               <h3 class="mt-2 mb-5">standard</h3>
-              <h2 class="price plan mb-5 relative">19</h2>
+              <h2 class="price plan mb-5 relative">19<sup>99</sup></h2>
               <p class="mb-4">5 project</p>
               <p class="mb-4">5 GB storage</p>
               <p class="mb-4">unlimited users</p>
@@ -201,7 +201,7 @@ export default {
           <div class="fmcard py-4 px-5">
             <div class="title-cont d-flex flex-dir-col al-item-cent">
               <h3 class="mt-2 mb-5">premium</h3>
-              <h2 class="price plan mb-5 relative">29</h2>
+              <h2 class="price plan mb-5 relative">29<sup>99</sup></h2>
               <p class="mb-4">10 project</p>
               <p class="mb-4">15 GB storage</p>
               <p class="mb-4">unlimited users</p>
@@ -213,7 +213,7 @@ export default {
           <div class="fmcard py-4 px-5">
             <div class="title-cont d-flex flex-dir-col al-item-cent">
               <h3 class="mt-2 mb-5">professional</h3>
-              <h2 class="price plan mb-5 relative">39</h2>
+              <h2 class="price plan mb-5 relative">39<sup>99</sup></h2>
               <p class="mb-4">15 project</p>
               <p class="mb-4">30 GB storage</p>
               <p class="mb-4">unlimited users</p>
@@ -225,7 +225,7 @@ export default {
           <div class="fmcard py-4 px-5">
             <div class="title-cont d-flex flex-dir-col al-item-cent">
               <h3 class="mt-2 mb-5">extreme</h3>
-              <h2 class="price plan mb-5 relative">59</h2>
+              <h2 class="price plan mb-5 relative">59<sup>99</sup></h2>
               <p class="mb-4">unlimited project</p>
               <p class="mb-4">unlimited storage</p>
               <p class="mb-4">unlimited users</p>
@@ -288,7 +288,21 @@ export default {
 </section>
 <!-- *****/2.5 - Section 5 Latest News *****-->
 
+<!-- *****2.6 - Section 6 What Our Clients Say***** -->
 
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- *****/2.6 - Section 6 What Our Clients Say***** -->
 
 
 
@@ -461,18 +475,14 @@ export default {
         font-weight: 800;
         font-size: 1.1rem;
       }
-        .price:after {
-        content: '99';
-        color: $bg-litcyan;
-        position: absolute;
-        top: 4px;
-        right: -17px;
+        sup{
+        position: absolute; 
+        top: 11px; 
         font-weight: 800;
         font-size: 1rem;
       }
 
-      // TODO:Non mi accetta un secondo pseudo elemento
-      /*   .price.plan:after {
+        .price:after {
         content: 'monthly';
         color: $gray;
         text-transform: lowercase;
@@ -482,7 +492,7 @@ export default {
         font-weight: 700;
         font-style: italic;
         font-size: .6rem;
-      } */
+      }
 
       }
 
@@ -516,29 +526,24 @@ export default {
     }
   }
 
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
 // ******/2.5 - Section 5 Latest News*****
 
 
+// *****2.6 - Section 6 What Our Clients Say*****
 
+
+
+
+
+
+
+
+
+
+
+
+// *****/2.6 - Section 6 What Our Clients Say*****
 
 
 
