@@ -16,7 +16,7 @@ export default {
 <div class="wrapper">
 
   <!-- ************JUMBOTRON********** -->
-  <div class="jumbotron relative">
+  <div id="jumbotr" class="jumbotron relative">
     <img src="/img/1-hero-image.png" alt="Jumbotron">
     <div class="fmcontainer absolute">
       <div class="leftblock">

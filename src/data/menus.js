@@ -76,15 +76,15 @@ const socialIcon = [
   },
   {
     img: 'fa-brands fa-instagram',
-    href: "http://instagram.com"
+    href: "http://www.instagram.com"
   },
   {
     img: 'fa-brands fa-twitter',
-    href: "http://twitter.com"
+    href: "http://www.twitter.com"
   },
   {
     img: 'fa-brands fa-youtube',
-    href: "http://youtube.com"
+    href: "http://www.youtube.com"
   }
 ];
 

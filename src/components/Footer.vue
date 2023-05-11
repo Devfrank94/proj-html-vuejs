@@ -1,8 +1,12 @@
 <script>
 
 import {footMenu, socialIcon} from "../data/menus";
+import BackToTop from './partials/BackToTop.vue';
 export default {
   name: "Footer",
+  components: {
+    BackToTop
+},
   data(){
     return{
       footMenu,
@@ -34,6 +38,10 @@ export default {
 
       </div>
     </div>
+
+    <!-- Back to Top Button -->
+    <BackToTop/>
+
   </footer>
 
 

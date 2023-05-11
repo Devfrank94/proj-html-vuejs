@@ -15,14 +15,15 @@ export default {
 }
 </script>
 <template>
-  
+  <html>
+    
   <Header />
 
   <Main />
 
   <Footer />
 
-  
+  </html>
 </template>
 
 
@@ -30,6 +31,9 @@ export default {
 
   @use './scss/main.scss' as *;
 
-
+  html {
+  scroll-behavior: smooth;
+  
+  }
 
 </style>
