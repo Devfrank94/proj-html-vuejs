@@ -44,6 +44,11 @@ export default {
   footer{
 
     .foot-cont{
+
+      p{
+        color: $gray;
+        font-size: .7rem;
+      }
     
       img{
       width: 130px;
