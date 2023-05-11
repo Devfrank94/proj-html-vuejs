@@ -1,11 +1,12 @@
 <script>
 
-import {footMenu} from "../data/menus";
+import {footMenu, socialIcon} from "../data/menus";
 export default {
   name: "Footer",
   data(){
     return{
       footMenu,
+      socialIcon
     }
   }
 }
@@ -15,7 +16,7 @@ export default {
   
   <footer>
     <div class="container">
-      <div class="foot-cont d-flex flex-dir-col al-item-cent py-5">
+      <div class="foot-cont d-flex flex-dir-col al-item-cent py-4">
         <img src="/img/logo_seo_2x.png" alt="Logo footer">
         <nav class="my-4">
           <ul class="d-flex al-item-cent">
@@ -24,10 +25,12 @@ export default {
             </li>
           </ul>
         </nav>
-        <p>&copy; Copiright 2012 - 2020 | Avada Theme by <strong>ThemeFusion</strong> | All Rights Reserved | Powered by <strong>DevFrank</strong> </p>
-        <div>
-          Icone social
-        </div>
+        <p class="mb-1">&copy; Copiright 2012 - 2020 | Avada Theme by <strong>ThemeFusion</strong> | All Rights Reserved | Powered by <strong>DevFrank</strong> </p>
+        <ul class="d-flex al-item-cent">
+          <li v-for="(icon, index) in socialIcon" :key="index">
+            <a :href="icon.href"><i :class="icon.img"></i></a>
+          </li>
+        </ul>
 
       </div>
     </div>
@@ -44,6 +47,14 @@ export default {
   footer{
 
     .foot-cont{
+
+      ul{
+
+        i{
+          font-size: .9rem;
+        }
+        
+      }
 
       p{
         color: $gray;

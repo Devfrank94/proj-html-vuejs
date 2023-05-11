@@ -69,4 +69,24 @@ const footMenu = [
   },
 ];
 
-export {mainMenu, footMenu};
+const socialIcon = [
+  {
+    img: 'fa-brands fa-facebook-f',
+    href: "http://www.facebook.com"
+  },
+  {
+    img: 'fa-brands fa-instagram',
+    href: "http://instagram.com"
+  },
+  {
+    img: 'fa-brands fa-twitter',
+    href: "http://twitter.com"
+  },
+  {
+    img: 'fa-brands fa-youtube',
+    href: "http://youtube.com"
+  }
+];
+
+
+export {mainMenu, footMenu, socialIcon};
