@@ -326,6 +326,7 @@ export default {
 <!-- 2.7 - Section 7 Start Free Consultation -->
 
 <section class="Sect7">
+  <div class="overlay">
     <div class="container d-flex j-cont-cent">
       <div class="title-cont al-item-cent">
         <h3 class="mt-5 mb-3">start your free consultation</h3>
@@ -334,6 +335,7 @@ export default {
       </div>
       
     </div>
+  </div>
     <!-- ****/CARDS BLUE**** -->
   </section>
 
@@ -623,8 +625,21 @@ export default {
 .Sect7{
   width: 100%;
   background-image: url('/img/CTA-seo-1.jpg');
-  
   background-size: cover;
+
+  .overlay{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.7);
+  }
+
+  .container{
+    padding-top: 50px;
+    padding-bottom: 110px;
+
+  }
 
   h3, p{
     color: $bg-sect;
