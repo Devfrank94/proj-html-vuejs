@@ -337,7 +337,7 @@ export default {
     </div>
   </div>
     <!-- ****/CARDS BLUE**** -->
-  </section>
+</section>
 
 
 
@@ -637,7 +637,7 @@ export default {
 
   .container{
     padding-top: 50px;
-    padding-bottom: 110px;
+    padding-bottom: 90px;
 
   }
 
@@ -647,20 +647,6 @@ export default {
 
 }
 
-
-
-
-
-
-
-
-
 // *****/2.7 - Section 7 Start Free Consultation*****
 
-
-
-
-
-
-  
 </style>
