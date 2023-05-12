@@ -106,10 +106,11 @@ header{
         font-weight: 600;
         font-size: .6rem;
         cursor: pointer;
-        :active &{
-          color: white;
-          background-color: $bg-orange;
-        }
+      }
+      
+      li:nth-child(5):hover:after{
+        color: white;
+        background-color: $bg-orange;
       }
 
 

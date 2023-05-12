@@ -132,20 +132,22 @@ export default {
       </div>
 
         <!-- ****CARDS CASE STUDY**** -->
-        <!-- TODO: hover alle card -->
       <div class="row row-cols-3 mb-3">
         <div class="cont-card">
           <div class="fmcard">
+            <i class="fa-solid fa-link" style="color: #ffffff;"></i>
             <img src="/img/case-study-gallery-3-1-400x300.jpg" alt="Case study 1">
           </div>
         </div>
         <div class="cont-card">
           <div class="fmcard">
+            <i class="fa-solid fa-link" style="color: #ffffff;"></i>
             <img src="/img/case-study-gallery-2-400x300.jpg" alt="Case study 2">
           </div>
         </div>
         <div class="cont-card">
           <div class="fmcard">
+            <i class="fa-solid fa-link" style="color: #ffffff;"></i>
             <img src="/img/case-study-gallery-1-1-400x300.jpg" alt="Case study 3">
           </div>
         </div>
@@ -153,16 +155,19 @@ export default {
       <div class="row row-cols-3 mb-5">
         <div class="cont-card">
           <div class="fmcard">
+            <i class="fa-solid fa-link" style="color: #ffffff;"></i>
             <img src="/img/case-study-gallery-4-1-400x300.jpg" alt="Case study 4">
           </div>
         </div>
         <div class="cont-card">
           <div class="fmcard">
+            <i class="fa-solid fa-link" style="color: #ffffff;"></i>
             <img src="/img/case-study-gallery-5-1-400x300.jpg" alt="Case study 5">
           </div>
         </div>
         <div class="cont-card">
           <div class="fmcard">
+            <i class="fa-solid fa-link" style="color: #ffffff;"></i>
             <img src="/img/case-study-gallery-6-1-400x300.jpg" alt="Case study 6">
           </div>
         </div>
@@ -339,29 +344,7 @@ export default {
     <!-- ****/CARDS BLUE**** -->
 </section>
 
-
-
-
-
-
-
-
-
-
-
-
 <!-- /2.7 - Section 7 Start Free Consultation -->
-
-
-
-
-
-
-
-
-
-
-
 
   </main>
 
@@ -377,6 +360,22 @@ export default {
   // *******2.1 - Section 1 Meet New Agency********
   section:nth-child(odd){
     background-color: $bg-sect;  
+  }
+
+  .Sect1{
+
+    .fmcard{
+
+      cursor: pointer;
+
+      h4{
+        &:hover{
+          color: $bg-orange;
+        }
+      }
+
+    }
+
   }
 
   .title-cont{
@@ -429,6 +428,14 @@ export default {
 
   .fmcard{
     background-color: $blue;
+    width: 250px;
+    height: 300px;
+    cursor: pointer;
+    &:hover{
+      outline: 0px solid transparent;
+      border: 7px solid #000C47;
+      transition: all 0.3s ease-in-out;
+    }
 
     h4{
       color: $bg-sect;
@@ -459,10 +466,36 @@ export default {
 
 .Sect3{
 
+
   padding-bottom: 80px;
 
   .fmcard{
+
+    position: relative;
+
+    i{
+      display: none;
+      font-size: 2.3rem;
+    }
+
     cursor: pointer;
+    &:hover{
+      background: rgb(96,122,254);
+      background: linear-gradient(180deg, rgba(96,122,254,1) 3%, rgba(255,255,255,1) 100%);
+
+      i{
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        translate: (-50% -50%);
+      }
+
+      img{
+        opacity: 0;
+      }
+    }
+
   }
 
 
@@ -490,6 +523,14 @@ export default {
 
     .fmcard{
       background-color: $bg-rocard;
+      width: 310px;
+      height: 410px;
+      cursor: pointer;
+      &:hover{
+      outline: 5px solid transparent;
+      border: 4px solid #3A44C0;
+      transition: all 0.3s ease-in-out;
+    }
   
       h3{
       color: $black;
